@@ -1,9 +1,13 @@
 import React,{useEffect} from "react";
 import me from "../assets/me.jpg"
 import laravel from "../assets/laravel.png"
-import vue from "../assets/vue.svg"
-import typescript from "../assets/typescript1.png"
+import vue from "../assets/vue.png"
+import typescript from "../assets/typescript.png"
 import cv from "../assets/Cv-Aina.pdf"
+import javascript from "../assets/javascript.png"
+import figma from "../assets/figma.png"
+import html from "../assets/html&css.png"
+import react from "../assets/react.png"
 
 
 function Portfolio() {
@@ -103,14 +107,14 @@ function Portfolio() {
             <div className="skill-content">
                 <div className="row">
                     <div className="row-img">
-                        <img src={me} alt="" />
+                        <img src={html} alt="" />
                     </div>
                     <p className="skill-desc">Html & Css</p>
                 </div>
 
                 <div className="row">
                     <div className="row-img">
-                        <img src={me} alt="" />
+                        <img src={javascript} alt="" />
                     </div>
                     <p className="skill-desc">Javascript</p>
                 </div>
@@ -124,7 +128,7 @@ function Portfolio() {
 
                 <div className="row">
                     <div className="row-img">
-                        <img src={me} alt="" />
+                        <img src={figma} alt="" />
                     </div>
                     <p className="skill-desc">Figma</p>
                 </div>
@@ -136,7 +140,7 @@ function Portfolio() {
             <div className="skill-content">
                 <div className="row">
                     <div className="row-img">
-                        <img src={me} alt="" />
+                        <img src={react} alt="" />
                     </div>
                     <p className="skill-desc">React</p>
                 </div>
