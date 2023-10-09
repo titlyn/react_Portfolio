@@ -198,9 +198,16 @@ section {
 .home .home-image{
   display: flex;
   flex: 1;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 100%;
+}
+
+.home .home-image img {
+  height: 140%;
+  width: 100%;
+  filter: grayscale(80%);
+
 }
 
 .btn {
@@ -351,14 +358,13 @@ header.sticky{
 }
 .box {
   position: relative;
-  height: 50vh;
-  width: 60vh;
+
 }
 
 .box img{
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  object-fit: cover; 
   border-radius: 10px;
   filter: brightness(70%);
   transition: all .3s cubic-bezier(.499,.05,.55,.95);
@@ -367,17 +373,13 @@ header.sticky{
 }
 
 .box h4{
-  position: absolute;
-  left: 25px;
-  bottom: 5%;
   font-size: 18px;
   font-weight: 500;
 }
 
 .box h6{
-  position: absolute;
-  left: 25px;
-  bottom: 20%;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-size: 20px;
   font-weight: 700;
 }
@@ -442,11 +444,13 @@ header.sticky{
     flex-direction: column;
     background: var(--bg-color);
     transition: all .50s ease;
+    /* background-color: rgba(255, 163, 67, 0.5); */
+    background-color: #ffa343;
   }
 
   .navbar a{
     display: block;
-    color: #979797;
+    color: #fff;
     padding: 0;
     margin: 0px 0px 30px 0px;
     font-size: 1.5rem;
@@ -454,7 +458,7 @@ header.sticky{
   }
 
   .navbar a:hover{
-    background-color: var(--main-color);
+    color: var(--main-color);
   }
 
   .navbar.open{
@@ -475,6 +479,18 @@ header.sticky{
   .about{
     grid-template-columns: 1fr;
   }
+
+  .navbar a {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all .50s ease;
+  }
+  
+  .navbar a:hover {
+    color: var(--main-color);
+  }
 }
 
 @media(max-width: 600px){
@@ -485,6 +501,18 @@ header.sticky{
 
   .home{
     height: 85vh;
+  }
+
+  .navbar a {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all .50s ease;
+  }
+  
+  .navbar a:hover {
+    color: var(--main-color);
   }
 }
 
@@ -497,6 +525,18 @@ header.sticky{
   }
   section{
     padding: 60px 3% 50px;
+  }
+
+  .navbar a {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all .50s ease;
+  }
+  
+  .navbar a:hover {
+    color: var(--main-color);
   }
 }
 

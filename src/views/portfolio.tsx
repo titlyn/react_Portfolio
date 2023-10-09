@@ -10,6 +10,8 @@ import html from "../assets/html&css.png"
 import react from "../assets/react.png"
 import atoo from "../assets/atoo.png"
 import portfolio from "../assets/portfolio.png"
+import wcc from "../assets/wcc.png"
+import rakoto from "../assets/background.png"
 
 function Portfolio() {
 
@@ -54,15 +56,15 @@ function Portfolio() {
 
                 <div className="h-right">
                     <a href="#">Follow me</a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/ghostRakoto.ghost">
                         <div className="ico"></div>
                     </a>
 
-                    <a href="#">
+                    <a href="https://www.instagram.com/ra_ko_to?utm_source=qr&r=nametag">
                         <div className="insta">
                         </div>
                     </a>
-                    <a href="#"><div className="in"></div></a>
+                    <a href="https://mg.linkedin.com/in/aina-rakotomanana-nomenjanahary-aabaa824b"><div className="in"></div></a>
                     <div className="bx bx-menu" id="menu-icon" onClick={handleClick}>
                         <div className="bar"></div>
                         <div className="bar"></div>
@@ -80,7 +82,7 @@ function Portfolio() {
             </div>
 
             <div className="home-image">
-            
+                <img src={rakoto} alt="" />
             </div>
         </section>
 
@@ -187,9 +189,9 @@ function Portfolio() {
                 </div>
 
                 <div className="box">
-                    <img src={me} alt="" />
-                    <h6>Atoo app</h6>
-                    <h4>Making a web app for yammy moto & Fami moto society</h4>
+                    <img src={wcc} alt="" />
+                    <h6>Weekly Coding Challenge</h6>
+                    <h4>Making a Html,Css and Javascript website challenge during the week-end.</h4>
                 </div>
             </div>
         </section>
@@ -205,7 +207,7 @@ function Portfolio() {
 
             <div className="footer-box">
                 <h3>Contact</h3>
-                <a href="nyaina163@gmail.com">Email : <span>nyaina163@gmail.com</span></a>
+                <a href="mailto:nyaina163@gmail.com">Email : <span>nyaina163@gmail.com</span></a>
                 <a href="https://mg.linkedin.com/in/aina-rakotomanana-nomenjanahary-aabaa824b">Linkedin : <span>Rakotomanana Nomenjanahary Aina</span></a>
                 <a href="#">Phone : <span>034 41 991 48 / 032 73 078 77</span></a>
                 <a href="#">Whatsapp : <span>+ 261 32 73 078 77</span></a>
