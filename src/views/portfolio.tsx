@@ -8,7 +8,8 @@ import javascript from "../assets/javascript.png"
 import figma from "../assets/figma.png"
 import html from "../assets/html&css.png"
 import react from "../assets/react.png"
-
+import atoo from "../assets/atoo.png"
+import portfolio from "../assets/portfolio.png"
 
 function Portfolio() {
 
@@ -53,20 +54,15 @@ function Portfolio() {
 
                 <div className="h-right">
                     <a href="#">Follow me</a>
-                    <a href="#"><div className="ico">f</div></a>
+                    <a href="#">
+                        <div className="ico"></div>
+                    </a>
+
                     <a href="#">
                         <div className="insta">
-                            <div className="one">
-                                    <div className="dot"></div>
-                                    <div className="circle">
-                                        <div className="three">
-                                            <div className="four"></div>
-                                        </div>
-                                    </div>
-                            </div>
                         </div>
                     </a>
-                    <a href="#"><div className="in">in</div></a>
+                    <a href="#"><div className="in"></div></a>
                     <div className="bx bx-menu" id="menu-icon" onClick={handleClick}>
                         <div className="bar"></div>
                         <div className="bar"></div>
@@ -81,6 +77,10 @@ function Portfolio() {
                 <h1>I'm Aina <br /> a web developer</h1>
                 <p>I'm here to make your web application </p>
                 <a href="#about"><button className="btn">Get started</button></a>
+            </div>
+
+            <div className="home-image">
+            
             </div>
         </section>
 
@@ -175,15 +175,15 @@ function Portfolio() {
 
             <div className="project-content">
                 <div className="box">
-                    <img src={me} alt="" />
+                    <img src={atoo} alt="" />
                     <h6>Atoo app</h6>
                     <h4>Making a web app for yammy moto & Fami moto society</h4>
                 </div>
 
                 <div className="box">
-                    <img src={me} alt="" />
-                    <h6>Atoo app</h6>
-                    <h4>Making a web app for yammy moto & Fami moto society</h4>
+                    <img src={portfolio} alt="" />
+                    <h6>Portfolio</h6>
+                    <h4>React with Typescript web portfolio</h4>
                 </div>
 
                 <div className="box">
@@ -197,25 +197,25 @@ function Portfolio() {
         <section className="footer" id="footer">
             <div className="footer-box">
                 <h3>Services</h3>
-                <a href="#">Email</a>
-                <a href="#">Branding</a>
-                <a href="#">Campaign</a>
-                <a href="#">Offline</a>
+                <a href="#">Web development</a>
+                <a href="#">Web Design</a>
+                <a href="#">Mobile development</a>
+                <a href="#">Mobile design</a>
             </div>
 
             <div className="footer-box">
                 <h3>Contact</h3>
-                <a href="#">Email : <span>nyaina163@gmail.com</span></a>
-                <a href="#">Linkedin : <span>Rakotomanana Nomenjanahary Aina</span></a>
+                <a href="nyaina163@gmail.com">Email : <span>nyaina163@gmail.com</span></a>
+                <a href="https://mg.linkedin.com/in/aina-rakotomanana-nomenjanahary-aabaa824b">Linkedin : <span>Rakotomanana Nomenjanahary Aina</span></a>
                 <a href="#">Phone : <span>034 41 991 48 / 032 73 078 77</span></a>
                 <a href="#">Whatsapp : <span>+ 261 32 73 078 77</span></a>
             </div>
 
             <div className="footer-box">
                 <h3>Social Media</h3>
-                <a href="#">Facebook : <span>Ra Ko To</span></a>
-                <a href="#">Instagram : <span>Ra Ko To</span></a>
-                <a href="#">Linkedin : <span>Aina</span></a>
+                <a href="https://www.facebook.com/ghostRakoto.ghost">Facebook : <span>Ra Ko To</span></a>
+                <a href="https://www.instagram.com/ra_ko_to?utm_source=qr&r=nametag">Instagram : <span>Ra Ko To</span></a>
+                <a href="https://mg.linkedin.com/in/aina-rakotomanana-nomenjanahary-aabaa824b">Linkedin : <span>Aina</span></a>
             </div>
         </section>
 
