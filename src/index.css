@@ -23,7 +23,7 @@
 body {
 
   color: var(--text-color);
-  background:linear-gradient(to left,#ffa343,#000,#000);
+  background: #010101;
 }
 
 header {
