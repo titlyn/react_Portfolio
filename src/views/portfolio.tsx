@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import {useEffect} from "react";
 import me from "../assets/me.jpg"
 import laravel from "../assets/laravel.png"
 import vue from "../assets/vue.png"
