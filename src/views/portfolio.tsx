@@ -175,11 +175,6 @@ function Portfolio() {
             </div>
 
             <div className="project-content">
-                <div className="box">
-                    <img src={atoo} alt="" />
-                    <h6>Atoo app</h6>
-                    <h4>Making a web app for yammy moto & Fami moto society</h4>
-                </div>
 
                 <div className="box">
                     <img src={portfolio} alt="" />
