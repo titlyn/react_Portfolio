@@ -11,6 +11,7 @@ import react from "../assets/react.png"
 import portfolio from "../assets/portfolio.png"
 import wcc from "../assets/wcc.png"
 import rakoto from "../assets/background.png"
+import wcc4 from "../assets/wcc4.png"
 
 function Portfolio() {
 
@@ -185,6 +186,12 @@ function Portfolio() {
                     <img src={wcc} alt="" />
                     <h6>Weekly Coding Challenge</h6>
                     <h4>Making a Html,Css and Javascript website challenge during the week-end.</h4>
+                </div>
+
+                <div className="box">
+                    <img src={wcc4} alt="" />
+                    <h6>Weekly Coding Challenge</h6>
+                    <h4>Making a Html,Css and Javascript website challenge during the fourth week-end.</h4>
                 </div>
             </div>
         </section>
