@@ -11,8 +11,8 @@
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --text-color: #fff;
-  --bg-color: #000;
+  --text-color: #000;
+  --bg-color: #fff;
   --main-color: #ffa343;
 
   --h1-font: 6rem;
